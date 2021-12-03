@@ -9,7 +9,7 @@ loop do
 
   puts
   puts "== DAY #{day} =="
-  ref = Object.const_get("Day#{day}")::Main.new(File.read("day#{day}/input.txt"))
+  ref = Object.const_get("Day#{day}")::Main.new(File.read("day#{day}/input.txt").strip)
   puts "PART 1: #{ref.part1}"
   puts "PART 2: #{ref.part2}"
   puts '== END =='
