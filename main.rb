@@ -1,3 +1,5 @@
+require_relative 'utils'
+
 (1..25).each do |d|
   require_relative "day#{d}/main"
 end

@@ -1,5 +1,3 @@
-require_relative 'array'
-
 module Day7
   class Main
     def initialize(input)
